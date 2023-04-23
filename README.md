@@ -12,10 +12,17 @@ Software Development - Semester 3 - Full Stack - Final Sprint
 example;
 
 SESSION_SECRET=AdmiralsCove
+
 MONGODB=mongodb+srv://kyle:Optical81101@cluster0.nor6ahi.mongodb.net/?retryWrites=true&w=majority
+
 PGUSER=postgres
+
 PGHOST=localhost
+
 PGDATABASE= (your postgres db name)
+
 PGPASSWORD= (your pgAdmin password)
+
 PGPORT=5432
+
 PORT=3000
