@@ -1,0 +1,38 @@
+{
+  "name": "fs_finalsprint_personalcopy",
+  "version": "1.0.0",
+  "description": "Full Stack final sprint ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ksnow13/FullStack_S3_FinalSprint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ksnow13/FullStack_S3_FinalSprint/issues"
+  },
+  "homepage": "https://github.com/Ksnow13/FullStack_S3_FinalSprint#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "date-fns": "^2.29.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^5.2.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.8.0",
+    "util": "^0.12.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

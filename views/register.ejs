@@ -1,0 +1,37 @@
+<%- include('./partials/header.ejs') %>
+<body>
+  <div class="login-container">
+    <div class="login-form-container">
+      <h1 class="form-container-title">Register</h1>
+      <form action="/register" method="POST">
+        <% if (message.length) { %> <%= message %> <% } %>
+        <div>
+          <h3 class="input-title">Name</h3>
+          <input class="the-input" type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <h3 class="input-title">Email</h3>
+          <input
+            class="the-input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div>
+          <h3 class="input-title">Password</h3>
+          <input
+            class="the-input"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+        <button class="submit" type="submit">Register</button>
+      </form>
+      <button class="submit"><a href="/login">Login</a></button>
+    </div>
+  </div>
+</body>
