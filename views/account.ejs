@@ -1,0 +1,28 @@
+<html lang="en">
+  <%- include('./partials/header.ejs') %>
+  <body>
+    <%- include('./partials/banner.ejs') %>
+    <div class="div-info">
+      <div class="content">
+        <% if (aAccount.length > 0) var account = aAccount[0];{ %>
+
+        <h2 class="account-title"><%= account.username %> Account Info</h2>
+        <p>
+          <b> user id: <%= account._id %> </b> <br />
+          <b> username: <%= account.username %> </b> <br />
+          <b> Email: <%= account.email %> </b> <br />
+          <b> bcrypted password: <%= account.password %> </b> <br />
+        </p>
+        <button class="submit">
+          <a
+            href="/account/<%=account._id%>/edit?username=<%=account.username%>"
+            >Change username</a
+          >
+        </button>
+        <%- include('./partials/logout.ejs') %>
+        <br />
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>

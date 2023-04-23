@@ -1,0 +1,26 @@
+<html lang="en">
+    <%- include('./partials/header.ejs') %>
+    <body>
+        <%- include('./partials/banner.ejs') %>
+        <div class="content">
+           
+        
+        <form action="/search/results" method="GET">
+            <h1 class="search-title">Search for vehicle info</h1></br>
+            <label>
+                <input class="searchbar" type="text" id="search" name="search" value="<%= locals.search %>" required>
+            </label>
+            <select class="drop-down-bar" name="db" id="db">
+                <option value="mongo">mongo</option>
+                <option value="postgres">postgres</option>
+                <option value="both">both</option>
+              </select>
+            <br>
+        </br>
+        <button class="submit">Search</button>
+        </br>
+    </div>
+        
+  
+    </body>
+</html>
