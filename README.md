@@ -9,7 +9,7 @@ Software Development - Semester 3 - Full Stack - Final Sprint
 
 - Inorder to make this program work you must create a .env file to hold all your values for database connection.
 
-example;
+--- example ---
 
 SESSION_SECRET=AdmiralsCove
 
